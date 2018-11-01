@@ -20,7 +20,7 @@
                 <TextBox Padding="5" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
             </Grid>
             <Grid Margin="110 50 100 0" >
-                <TextBlock   Text="Complaint Type" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBlock   Text="Complaint Method" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             </Grid>
             <Grid Margin="100 10 100 0">
                 <Border BorderThickness="2" BorderBrush="Black" Padding="20">
@@ -36,6 +36,26 @@
 
                         <RadioButton Style="{StaticResource {x:Type ToggleButton}}" Content="By Call" Grid.Column="0" />
                         <RadioButton Style="{StaticResource {x:Type ToggleButton}}" Content="In Person" Grid.Column="2" />
+                    </Grid>
+                </Border>
+            </Grid>
+            <Grid Margin="110 50 100 0" >
+                <TextBlock   Text="Complaint Type" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            </Grid>
+            <Grid Margin="100 10 100 0">
+                <Border BorderThickness="2" BorderBrush="Black" Padding="20">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100"/>
+                        </Grid.RowDefinitions>
+
+                        <RadioButton Style="{StaticResource {x:Type ToggleButton}}" Content="Staff Complaint" Grid.Column="0" />
+                        <RadioButton Style="{StaticResource {x:Type ToggleButton}}" Content="Item Complaint" Grid.Column="2" />
                     </Grid>
                 </Border>
             </Grid>

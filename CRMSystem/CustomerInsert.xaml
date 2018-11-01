@@ -24,8 +24,8 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
-                
-            <TextBlock Text="Customer ID" Grid.Column="0"/>
+
+            <TextBlock VerticalAlignment="Center" Text="Customer ID" Grid.Column="0"/>
             <TextBox  Grid.Column="1" Padding="5"/>
         </Grid>
         <Grid Margin="100 20 100 0">
@@ -34,7 +34,7 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Customer Name" Grid.Column="0"/>
+            <TextBlock VerticalAlignment="Center" Text="Customer Name" Grid.Column="0"/>
             <TextBox  Grid.Column="1" Padding="5"/>
         </Grid>
         <Grid Margin="100 20 100 0">
@@ -43,7 +43,7 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Customer Address/Email" Grid.Column="0"/>
+            <TextBlock VerticalAlignment="Center" Text="Customer Address/Email" Grid.Column="0"/>
             <TextBox  Grid.Column="1" Padding="5"/>
         </Grid>
         <Grid Margin="100 20 100 0">
@@ -52,7 +52,7 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Customer Telephone" Grid.Column="0"/>
+            <TextBlock VerticalAlignment="Center" Text="Customer Telephone" Grid.Column="0"/>
             <TextBox  Grid.Column="1" Padding="5"/>
         </Grid>
         <Grid Margin="100 50 100 0">

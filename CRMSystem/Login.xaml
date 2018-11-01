@@ -30,6 +30,7 @@
         </Grid>
         <PasswordBox  Margin="100 20 100 20" Padding="10 5 10 5"/>
 
+        <Label Margin="200 10" Content="Hint" HorizontalContentAlignment="Left" Background="White"/>
         <Button Margin="250 10 250 10" Content="Login" Click="Button_Click"/>
         <Label Margin="240 10" Content="Forgot password?" Background="White" Foreground="Blue"/>
 
